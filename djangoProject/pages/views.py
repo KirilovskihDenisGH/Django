@@ -2,8 +2,8 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.shortcuts import render
-def index(request):
+def homePageView(request):
     return render(request, "home.html")
 
-def index2(request):
+def aboutPageView(request):
     return render(request, "about.html")
